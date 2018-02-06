@@ -177,13 +177,12 @@ client.on('message', msg => {
 		const embed = new Discord.RichEmbed()
 		 .setTitle(`Catbot Help`)
 		 .setColor(0xc6c6c6)
-		 .addField(`General`, `\`ping\`, \`invite\``)
+		 .addField(`General`, `\`ping\`, \`invite\`, \`rep\``)
 		 .addField(`Fun`, `\`catify\``)
 		 .addField(`Util`, `\`serverinfo\``)
 		 .addField(`Mod`, `Soon`)
 		 .addField(`Dev`, `\`eval\`, \`say\``)
-		 .addField(`Work In Progress`, `\`userinfo\``)
-
+		 .addField(`Work In Progress`, `\`userinfo\``);
 		msg.author.send({embed});
 	}
 
